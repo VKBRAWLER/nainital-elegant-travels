@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: 'Libreville';
+  src: url('/fonts/Libreville.ttf');
+}
+*{
+  font-family: 'Libreville';
+}
