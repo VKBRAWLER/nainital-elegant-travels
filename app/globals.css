@@ -5,6 +5,14 @@
   font-family: 'Libreville';
   src: url('/fonts/Libreville.ttf');
 }
-*{
+:root {
+  --CT01: #ffee32;
+  --CT02: #ffd100;
+  --CT03: #d6d6d6;
+  --CT04: #eeef20;
+  --CT05: #333533;
+}
+* {
   font-family: 'Libreville';
+  color: var(--CT05);
 }
