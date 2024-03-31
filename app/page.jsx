@@ -28,7 +28,7 @@ const HomePage = () => {
       </section>
       <Tour />
       <section className="bg-[var(--CT02)] drop-shadow-2xl w-full grid grid-cols-1 md:grid-cols-2 grid-rows-[120px,120px,1fr] md:grid-rows-[120px,1fr] p-5">
-        <div className="flex flex-wrap w-full pb-5 flex-col items-center text-center md:col-span-2">
+        <div className="flex flex-wrap w-full pb-5 justify-center text-center md:col-span-2 h-auto">
           <h1 className="lg:text-4xl sm:text-3xl text-2xl mb-2 text-gray-900">Ride-Hailing Services</h1>
           <p className="w-full lg:text-xl">Need a Ride? We can cover you with our Cab Services, get your ride booked to your next destination.</p>
         </div>
