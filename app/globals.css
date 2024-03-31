@@ -3,11 +3,11 @@
 @tailwind utilities;
 @font-face {
   font-family: 'Libreville';
-  src: url('/fonts/Libreville.ttf');
+  src: url('/font/Libreville.otf');
 }
 :root {
-  --CT01: #ffee32;
-  --CT02: #ffd100;
+  --CT01: #ffe364;
+  --CT02: #ffdc3e;
   --CT03: #d6d6d6;
   --CT04: #eeef20;
   --CT05: #333533;
@@ -15,4 +15,7 @@
 * {
   font-family: 'Libreville';
   color: var(--CT05);
+}
+.glow {
+  text-shadow: 0 0 4px white;
 }

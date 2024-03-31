@@ -1,3 +1,4 @@
+import Tour from "@components/Tour";
 import { GiReceiveMoney } from "react-icons/gi";
 const HomePage = () => {
   
@@ -23,6 +24,7 @@ const HomePage = () => {
         <div className='bg-[var(--CT02)] drop-shadow-2xl flex flex-col items-center sm:w-[48%] lg:w-[24%] p-2 lg:p-5 lg:rounded-2xl gap-2'><GiReceiveMoney className='w-16 h-16' /><h1 className='text-2xl'>Value for money</h1><p className='text-center'>We believe in honest and transparent pricing with quality of service every time.</p></div>
         <div className='bg-[var(--CT02)] drop-shadow-2xl flex flex-col items-center sm:w-[48%] lg:w-[24%] p-2 lg:p-5 lg:rounded-2xl gap-2'><GiReceiveMoney className='w-16 h-16' /><h1 className='text-2xl'>Value for money</h1><p className='text-center'>We believe in honest and transparent pricing with quality of service every time.</p></div>
       </section>
+      <Tour/>
       <section className="h-20"></section>
     </main>
   );
