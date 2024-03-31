@@ -2,7 +2,7 @@
 const Tour = () => {
   const Loc = [ "bhimtal", "nainital", "corbett", "ranikhet", "kasauni", "mukteshwar", "almoda", "bageshwar", "pithoragarh", "champawat" ];
   return (
-      <section className="px-5 w-full">
+      <section className="p-5 w-full">
         <div className="flex flex-wrap w-full pb-5 flex-col items-center text-center">
           <h1 className="lg:text-4xl sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Tour You Can Travel</h1>
           <p className="w-full lg:text-xl">Here are some common locations you would loved to visit with our services. Most common places for touirism, travel and more...</p>

@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
-const SlideShow = () => {
-  const images = ["./img/i2.png", "./img/i3.png"];
+const SlideShow = (params) => {
+  const images = params.image;
   const [slideImg, setSlideImg] = useState(images[0]);
   useEffect(() => {
     const interval = setInterval(() => {

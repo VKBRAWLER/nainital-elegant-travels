@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className='flex flex-col items-center bg-[var(--CT01)]'>
         <Header />
-        <SlideShow />
+        <SlideShow image={["./img/i2.png", "./img/i3.png"]}/>
         {children}
       </body>
     </html>
