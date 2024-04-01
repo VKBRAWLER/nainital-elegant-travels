@@ -15,7 +15,7 @@ const SlideShow = (params) => {
   }, [slideImg]);
   return (
     <section className='w-full'>
-      <img src={slideImg} className="w-full" alt="" />
+      <img src={slideImg} className={`w-full ${params.ratio}`} alt="" />
     </section>
   );
 };

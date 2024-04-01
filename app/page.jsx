@@ -1,9 +1,12 @@
+import Contact from "@components/Contact";
 import Map from "@components/Map";
 import SlideShow from "@components/SlideShow";
 import Tour from "@components/Tour";
 import { GiReceiveMoney } from "react-icons/gi";
+import { MdHealthAndSafety } from "react-icons/md";
+import { MdAccessTimeFilled } from "react-icons/md";
+import { RiEmotionHappyFill } from "react-icons/ri";
 const HomePage = () => {
-
   return (
     <main className='w-full max-w-[1200px] flex flex-col gap-20'>
       <section className='bg-[var(--CT02)] drop-shadow-2xl grid grid-rows-[40px,1fr,1fr] lg:grid-cols-[1fr,520px] lg:grid-rows-[40px,1fr] p-5 m-4 text-center rounded-xl'>
@@ -21,10 +24,10 @@ const HomePage = () => {
         </p></div>
       </section>
       <section className='flex justify-evenly flex-wrap gap-2 p-2'>
-        <div className='bg-[var(--CT02)] drop-shadow-2xl flex flex-col items-center sm:w-[48%] lg:w-[24%] p-2 lg:p-5 lg:rounded-2xl gap-2'><GiReceiveMoney className='w-16 h-16' /><h1 className='text-2xl'>Value for money</h1><p className='text-center'>We believe in honest and transparent pricing with quality of service every time.</p></div>
-        <div className='bg-[var(--CT02)] drop-shadow-2xl flex flex-col items-center sm:w-[48%] lg:w-[24%] p-2 lg:p-5 lg:rounded-2xl gap-2'><GiReceiveMoney className='w-16 h-16' /><h1 className='text-2xl'>Value for money</h1><p className='text-center'>We believe in honest and transparent pricing with quality of service every time.</p></div>
-        <div className='bg-[var(--CT02)] drop-shadow-2xl flex flex-col items-center sm:w-[48%] lg:w-[24%] p-2 lg:p-5 lg:rounded-2xl gap-2'><GiReceiveMoney className='w-16 h-16' /><h1 className='text-2xl'>Value for money</h1><p className='text-center'>We believe in honest and transparent pricing with quality of service every time.</p></div>
-        <div className='bg-[var(--CT02)] drop-shadow-2xl flex flex-col items-center sm:w-[48%] lg:w-[24%] p-2 lg:p-5 lg:rounded-2xl gap-2'><GiReceiveMoney className='w-16 h-16' /><h1 className='text-2xl'>Value for money</h1><p className='text-center'>We believe in honest and transparent pricing with quality of service every time.</p></div>
+        <div className='bg-[var(--CT02)] drop-shadow-2xl flex flex-col items-center sm:w-[48%] lg:w-[24%] p-2 lg:p-5 lg:rounded-2xl gap-2'><GiReceiveMoney className='w-16 h-16' /><h1 className='text-2xl'>Cost-Effective</h1><p className='text-center'>No vehicle ownership expenses—just pay for the rides you take.</p></div>
+        <div className='bg-[var(--CT02)] drop-shadow-2xl flex flex-col items-center sm:w-[48%] lg:w-[24%] p-2 lg:p-5 lg:rounded-2xl gap-2'><MdHealthAndSafety className='w-16 h-16' /><h1 className='text-2xl'>Safety</h1><p className='text-center'>Vetted drivers and live tracking enhance passenger security during journeys.</p></div>
+        <div className='bg-[var(--CT02)] drop-shadow-2xl flex flex-col items-center sm:w-[48%] lg:w-[24%] p-2 lg:p-5 lg:rounded-2xl gap-2'><MdAccessTimeFilled className='w-16 h-16' /><h1 className='text-2xl'>Time-Saving</h1><p className='text-center'>Efficient routes mean quicker travel compared to public transport.</p></div>
+        <div className='bg-[var(--CT02)] drop-shadow-2xl flex flex-col items-center sm:w-[48%] lg:w-[24%] p-2 lg:p-5 lg:rounded-2xl gap-2'><RiEmotionHappyFill className='w-16 h-16' /><h1 className='text-2xl'>Convenience</h1><p className='text-center'>Easily book rides, skip waiting times, and enjoy door-to-door service.</p></div>
       </section>
       <Tour />
       <section className="bg-[var(--CT02)] drop-shadow-2xl w-full grid grid-cols-1 md:grid-cols-2 grid-rows-[120px,120px,1fr] md:grid-rows-[120px,1fr] p-5">
@@ -41,9 +44,10 @@ const HomePage = () => {
           </ol>
         </div>
         <div>
-          <SlideShow image={["./img/i4.png", "./img/i5.png"]}/>
+          <SlideShow image={["./img/i4.png", "./img/i5.png", "./img/i6.png"]} ratio={"aspect-video"} />
         </div>
       </section>
+      <Contact />
       <section className="h-20"></section>
       {/* <Map /> */}
     </main>
