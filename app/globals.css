@@ -6,16 +6,64 @@
   src: url('/font/Libreville.otf');
 }
 :root {
+  --CT01: #ecf39e;
+  --CT02: #a7c957;
+  --CT03: #d6d6d6;
+  --CT04: #55a630;
+  --CT05: #132a13;
+}
+/* :root {
   --CT01: #ffe364;
   --CT02: #ffdc3e;
   --CT03: #d6d6d6;
   --CT04: #eeef20;
   --CT05: #333533;
-}
+} */
 * {
   font-family: 'Libreville';
   color: var(--CT05);
 }
 .glow {
   text-shadow: 0 0 4px white;
+}
+.slide-container {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.slide-left {
+  animation: slideLeft 0.5s ease-in-out;
+}
+
+.slide-right {
+  animation: slideRight 0.5s ease-in-out;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.slide-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }

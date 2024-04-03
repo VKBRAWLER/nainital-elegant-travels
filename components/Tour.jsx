@@ -50,7 +50,7 @@ const Tour = () => {
         </div>
         <div className="flex flex-wrap justify-evenly gap-2">
           {Loc.map((i) => (
-            <div key={i} className="border-2 border-[var(--CT05)] rounded-lg flex justify-center items-center w-full sm:w-[49%] md:w-[32%] h-20 sm:h-32 md:h-40 bg-cover"
+            <div key={i.name} className="border-2 border-[var(--CT05)] rounded-lg flex justify-center items-center w-full sm:w-[49%] md:w-[32%] h-20 sm:h-32 md:h-40 bg-cover"
             style={{backgroundImage: `url(${i.image})`}}
             >
             <h2 className="text-3xl font-extrabold glow capitalize">{i.name}</h2>
