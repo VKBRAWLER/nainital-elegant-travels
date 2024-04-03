@@ -1,5 +1,6 @@
 import './globals.css'
 import Header from '@components/Header'
+import Footer from '@components/Footer';
 import SlideShow from "@components/SlideShow";
 export const metadata = {
   title: 'Create Next App',
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
         <Header />
         <SlideShow image={["./img/i2.png", "./img/i3.png"]}/>
         {children}
+        <Footer />
       </body>
     </html>
   )
