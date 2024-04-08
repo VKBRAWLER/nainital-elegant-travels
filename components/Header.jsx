@@ -13,9 +13,9 @@ const Header = () => {
         <li className="cursor-pointer">Contact</li>
       </ul>
       <ul className="flex items-center justify-evenly">
-        <Link href={'/'} className="cursor-pointer">< BsInstagram className="w-8 h-8"/></Link>
-        <Link href={'/'} className="cursor-pointer">< FaWhatsapp className="w-8 h-8"/></Link>
-        <Link href={'/'} className="cursor-pointer">< FaYoutube className="w-8 h-8"/></Link>
+        <Link target="_blank" href={'https://www.instagram.com/nainital_travels04?igsh=MnMzMWx1ZzIybG9j'} className="cursor-pointer">< BsInstagram className="w-8 h-8"/></Link>
+        <Link target="_blank" href={'https://wa.me/918360421711'} className="cursor-pointer">< FaWhatsapp className="w-8 h-8"/></Link>
+        <Link target="_blank" href={'https://youtube.com/@zaimi6905?si=-5Zde5kSUdFShpBi'} className="cursor-pointer">< FaYoutube className="w-8 h-8"/></Link>
       </ul>
     </header>
   );

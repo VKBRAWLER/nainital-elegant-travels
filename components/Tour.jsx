@@ -30,8 +30,8 @@ const Tour = () => {
       "image": "https://www.adotrip.com/public/images/areas/master_images/60867da47d4a2-Kasar_Devi_Temple_Almora.jpg",
     },
     {
-      "name": "kechi dham",
-      "image": "https://www.dham-yatra.com/blog/wp-content/uploads/2019/10/kainchi-dham-1024x683.jpg",
+      "name": "kainchi dham",
+      "image": "https://thelakehill.com/wp-content/uploads/2023/05/Kainchi-Dham-Neem-Karoli-Baba-Ashram-thelakehill.com_.webp",
     },
     {
       "name": "Rishikesh",
@@ -51,8 +51,7 @@ const Tour = () => {
         <div className="flex flex-wrap justify-evenly gap-2">
           {Loc.map((i) => (
             <div key={i.name} className="border-2 border-[var(--CT05)] rounded-lg flex justify-center items-center w-full sm:w-[49%] md:w-[32%] h-20 sm:h-32 md:h-40 bg-cover"
-            style={{backgroundImage: `url(${i.image})`}}
-            >
+            style={{backgroundImage: `url(${i.image})`}}>
             <h2 className="text-3xl font-extrabold glow capitalize">{i.name}</h2>
             </div>
           ))}

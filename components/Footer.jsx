@@ -16,9 +16,9 @@ const Footer = () => {
             <div>
                 <h2 className="text-lg sm:text-2xl font-bold text-right md:text-left">Contact Us</h2>
                 <ul className="mx-5 text-right md:text-left">
-                    <li>+91 9456790295</li>
-                    <li>+91 9412129175</li>
-                    <li>varunkh12345@gmail.com</li>
+                    <li>+91 8360421711</li>
+                    <li>+91 8360421711</li>
+                    <li>zaid83852@gmail.com</li>
                 </ul>
             </div>
             <div>
