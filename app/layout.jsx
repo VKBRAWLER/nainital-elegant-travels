@@ -50,12 +50,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-          <title>{metadata.title}</title>
-          <meta name="description" content={metadata.description} />
-          <meta name="keywords" content={metadata.keywords.join(',')} />
-        <link rel="stylesheet" href="./globals.css" />
-      </head>
       <body className='flex flex-col items-center bg-[var(--CT01)]'>
         <Header />
         <SlideShow image={["/img/slide_show/ad1.jpg", "/img/slide_show/ad2.jpg"]} />

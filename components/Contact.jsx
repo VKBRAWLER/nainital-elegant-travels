@@ -12,7 +12,7 @@ const Contact = () => {
         <MdEmail className="w-full h-full" /> <a href="mailto:zaid83852@gmail.com" className="text-lg sm:text-2xl flex items-center">zaid83852@gmail.com</a>
         <IoLogoWhatsapp className="w-full h-full" /> <a href="https://wa.me/918360421711" target="_blank" className="text-lg sm:text-2xl flex items-center">+91 8360421711</a>
         <FaMapMarkerAlt className="w-full h-full" /> <a href="https://maps.app.goo.gl/VQGrpJDtGSn2fRqb6" className="text-lg sm:text-2xl flex items-center">Nainital Elegent Travels</a>
-        <BsInstagram className="w-full h-full" /> <span className="text-lg sm:text-2xl flex items-center">Nainital Elegent Travels</span>
+        <BsInstagram className="w-full h-full" /> <a href="https://www.instagram.com/nainital_travels04?igsh=MnMzMWx1ZzIybG9j" className="text-lg sm:text-2xl flex items-center">Nainital Elegent Travels</a>
       </span>
       <span><img src="/img/contact_us.png" alt="" /></span>
     </section>
