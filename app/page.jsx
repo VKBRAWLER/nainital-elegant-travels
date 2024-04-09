@@ -1,5 +1,4 @@
 import Contact from "@components/Contact";
-import Map from "@components/Map";
 import SlideShow from "@components/SlideShow";
 import Tour from "@components/Tour";
 import { GiReceiveMoney } from "react-icons/gi";
@@ -57,7 +56,6 @@ const HomePage = () => {
       </section>
       <Contact />
       <section className="h-20"></section>
-      {/* <Map /> */}
     </main>
   );
 };
