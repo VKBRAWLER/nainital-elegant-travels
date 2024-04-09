@@ -58,7 +58,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className='flex flex-col items-center bg-[var(--CT01)]'>
         <Header />
-        <SlideShow image={["./img/i2.png", "./img/i3.png"]} />
+        <SlideShow image={["/img/slide_show/ad1.jpg", "/img/slide_show/ad2.jpg"]} />
         {children}
         <Footer />
       </body>

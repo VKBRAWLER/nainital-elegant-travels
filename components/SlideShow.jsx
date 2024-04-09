@@ -25,8 +25,8 @@ const SlideShow = (params) => {
   return (
     <section className='w-full relative'>
       <img src={slideImg} className={`w-full ${params.ratio}`} alt="" />
-      <MdNavigateNext onClick={switchToNextImage} className="md:w-10 md:h-10 absolute top-1/2 bg-white right-2 rounded-full"/>
-      <MdNavigateNext onClick={switchToPreviousImage} className="md:w-10 md:h-10 absolute top-1/2 bg-white left-2 rounded-full rotate-180"/>
+      <MdNavigateNext onClick={switchToNextImage} className="md:w-10 md:h-10 absolute top-1/2 bg-[var(--CT03)] right-2 rounded-full"/>
+      <MdNavigateNext onClick={switchToPreviousImage} className="md:w-10 md:h-10 absolute top-1/2 bg-[var(--CT03)] left-2 rounded-full rotate-180"/>
     </section>
   );
 };

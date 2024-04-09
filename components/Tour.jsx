@@ -3,43 +3,43 @@ const Tour = () => {
   const Loc = [
     {
       "name": "bhimtal",
-      "image": "https://i0.wp.com/oneday.tours/wp-content/uploads/one-day-bhimtal-local-sightseeing-tour-package-private-cab-header.jpg?fit=1280%2C640&ssl=1"
+      "image": "/img/tour/bhimtal.webp",
     },
     {
       "name": "Nainital",
-      "image": "https://traveltricky.com/wp-content/uploads/2021/06/Nainital-1024x576.png",
+      "image": "/img/tour/Nainital.png",
     },
     {
       "name": "naukuchiatal",
-      "image": "https://static.toiimg.com/photo/msid-52251938,width-96,height-65.cms",
+      "image": "/img/tour/naukuchiatal.cms",
     },
     {
       "name": "Sattal",
-      "image": "https://www.indianholiday.com/pictures/travelguide/other-images/dest_head_img-378.jpeg",
+      "image": "/img/tour/Sattal.jpeg",
     },
     {
       "name": "Almora",
-      "image": "https://www.tourmyindia.com/socialimg/almora-tourism.jpg",
+      "image": "/img/tour/Almora.jpg",
     },
     {
       "name": "Ranikhet",
-      "image": "https://globalpathholidays.com/wp-content/uploads/2015/05/Ranikhet-tour.jpg",
+      "image": "/img/tour/Ranikhet.jpg",
     },
     {
       "name": "Kasardevi",
-      "image": "https://www.adotrip.com/public/images/areas/master_images/60867da47d4a2-Kasar_Devi_Temple_Almora.jpg",
+      "image": "/img/tour/Kasardevi.jpg",
     },
     {
       "name": "kainchi dham",
-      "image": "https://thelakehill.com/wp-content/uploads/2023/05/Kainchi-Dham-Neem-Karoli-Baba-Ashram-thelakehill.com_.webp",
+      "image": "/img/tour/Kainchi_Dham.png",
     },
     {
       "name": "Rishikesh",
-      "image": "https://www.triptyme.com/wp-content/uploads/sites/17/2016/06/rishikesh.jpg",
+      "image": "/img/tour/Rishikesh.jpg",
     },
     {
       "name": "Masoorie",
-      "image": "https://www.worldatlas.com/upload/1f/90/31/shutterstock-794720590.jpg",
+      "image": "img/tour/Masoorie.webp",
     },
   ];
   return (

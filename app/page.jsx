@@ -5,12 +5,18 @@ import { GiReceiveMoney } from "react-icons/gi";
 import { MdHealthAndSafety } from "react-icons/md";
 import { MdAccessTimeFilled } from "react-icons/md";
 import { RiEmotionHappyFill } from "react-icons/ri";
+import { IoCall } from "react-icons/io5";
 const HomePage = () => {
   return (
-    <main className='w-full max-w-[1200px] flex flex-col gap-20'>
-      <section className='bg-[var(--CT02)] drop-shadow-2xl grid grid-rows-[40px,1fr,1fr] lg:grid-cols-[1fr,520px] lg:grid-rows-[40px,1fr] p-5 md:m-4 m-1 text-center rounded-xl'>
+    <main className='w-full max-w-[1200px] flex flex-col gap-20 relative'>
+      <a className="h-16 w-16 bg-[var(--CT02)] p-3 rounded-full fixed bottom-3 right-3 z-10" href="tel:8360421711"><IoCall className="w-full h-full" /></a>
+      {/* <section className='bg-[var(--CT02)] drop-shadow-2xl flex flex-col items-center p-5 text-center rounded-xl mt-10 mx-2 sm:m-10'>
+        <h1 className=' text-3xl font-extralight'>Call Us Now!!</h1>
+        <a className="h-16 sm:h-20 flex bg-[var(--CT01)] p-3 rounded-full items-center" href="tel:8360421711"><IoCall className="w-full h-full" /><span className="text-3xl sm:text-4xl font-extrabold">+918360421711</span></a>
+      </section> */}
+      <section className='bg-[var(--CT02)] drop-shadow-2xl grid grid-rows-[40px,1fr,1fr] lg:grid-cols-[1fr,520px] lg:grid-rows-[40px,1fr] p-5 md:m-4 md:mt-20 m-1 mt-10 text-center rounded-xl'>
         <h1 className=' text-3xl font-extralight'>Nainital</h1>
-        <div className='row-span-2 border-2 border-white rounded-3xl overflow-hidden'><img className='w-full' src="/img/i1.png" alt="" /></div>
+        <div className='row-span-2 border-2 border-white rounded-3xl overflow-hidden'><img className='w-full' src="/img/hero1.jpg" alt="" /></div>
         <div className='flex justify-center items-center'>
           <p className='lg:max-w-[500px] pt-2 sm:p-4 lg:p-1 xl:text-xl xl:font-bold font-robo'>
             Nainital, known for its lake, is one of India's hill stations, offering visitors a tranquil environment. It has everything a tourist may want during a trip to a hill station.
@@ -18,13 +24,13 @@ const HomePage = () => {
           </p>
         </div>
       </section>
-      <section className='bg-[var(--CT02)] drop-shadow-2xl grid grid-rows-[40px,1fr,1fr] lg:grid-cols-[520px,1fr] lg:grid-rows-[40px,1fr] p-5 md:m-4 m-1 text-center rounded-xl'>
+      <section id="about" className='bg-[var(--CT02)] drop-shadow-2xl grid grid-rows-[40px,1fr,1fr] lg:grid-cols-[520px,1fr] lg:grid-rows-[40px,1fr] p-5 md:m-4 m-1 text-center rounded-xl'>
         <h1 className=' text-3xl font-extralight lg:order-2'>About Us</h1>
-        <div className='row-span-2 border-2 border-white rounded-3xl overflow-hidden lg:order-1'><img className='w-full' src="/img/i1.png" alt="" /></div>
+        <div className='row-span-2 border-2 border-white rounded-3xl overflow-hidden lg:order-1'><img className='w-full' src="/img/hero2.png" alt="" /></div>
         <div className='flex justify-center items-center lg:order-3'>
           <p className='lg:max-w-[500px] pt-2 sm:p-4 lg:p-1 xl:text-xl xl:font-bold font-robo'>
-          Nainital Elegant Travels is your trusted partner for both tourism and cab services. We specialize in crafting personalized journeys that blend luxury, adventure, and authenticity.
-          <span className="lg:max-w-[500px] pt-2 sm:p-4 lg:p-1 xl:text-xl xl:font-bold font-robo sm:block hiddenda"> Whether you're exploring the tranquil shores of Naini Lake or discovering the unexplored charm of nearby hill towns like Pangot, Ranikhet, and Almora, we promise to leave an indelible mark on your heart. Welcome to a world where elegance meets exploration!</span>
+            Nainital Elegant Travels is your trusted partner for both tourism and cab services. We specialize in crafting personalized journeys that blend luxury, adventure, and authenticity.
+            <span className="lg:max-w-[500px] pt-2 sm:p-4 lg:p-1 xl:text-xl xl:font-bold font-robo sm:block hidden"> Whether you're exploring the tranquil shores of Naini Lake or discovering the unexplored charm of nearby hill towns like Pangot, Ranikhet, and Almora, we promise to leave an indelible mark on your heart. Welcome to a world where elegance meets exploration!</span>
           </p>
         </div>
       </section>
@@ -51,11 +57,10 @@ const HomePage = () => {
           </ol>
         </div>
         <div>
-          <SlideShow image={["./img/i4.png", "./img/i5.png", "./img/i6.png", "./img/i7.jpg", "./img/i8.jpg"]} ratio={"aspect-video"} />
+          <SlideShow image={["/img/slide_show/dehradun.png", "/img/slide_show/delhi.png", "/img/slide_show/haldwani.png", "/img/slide_show/kausani.jpg", "/img/slide_show/munsiari.jpg"]} ratio={"aspect-video"} />
         </div>
       </section>
       <Contact />
-      <section className="h-20"></section>
     </main>
   );
 };
